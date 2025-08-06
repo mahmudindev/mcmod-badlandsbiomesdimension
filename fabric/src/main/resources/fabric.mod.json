@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "badlandsbiomesdimension",
+  "version": "${version}",
+  "name": "Badlands Biomes Dimension",
+  "description": "Add badlands biomes as separate dimension.",
+  "authors": [
+    "mahmudindev"
+  ],
+  "contact": {
+    "homepage": "https://github.com/mahmudindev",
+    "sources": "https://github.com/mahmudindev/mcmod-badlandsbiomesdimension"
+  },
+  "license": "ARR",
+  "icon": "assets/badlandsbiomesdimension/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.github.mahmudindev.mcmod.badlandsbiomesdimension.fabric.BadlandsBiomesDimensionFabric"
+    ],
+    "client": [
+      "com.github.mahmudindev.mcmod.badlandsbiomesdimension.fabric.client.BadlandsBiomesDimensionFabricClient"
+    ]
+  },
+  "mixins": [
+    "badlandsbiomesdimension.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.14",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "modifiedbiomesource": ">=0.0.1",
+    "dimensionfixer": ">=0.0.9",
+    "worldportal": ">=0.0.9"
+  },
+  "suggests": {
+    "fabric-api": "*"
+  }
+}

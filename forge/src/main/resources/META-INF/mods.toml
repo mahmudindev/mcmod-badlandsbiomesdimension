@@ -1,0 +1,49 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+issueTrackerURL = "https://github.com/mahmudindev/mcmod-badlandsbiomesdimension"
+license = "ARR"
+
+[[mods]]
+modId = "badlandsbiomesdimension"
+version = "${version}"
+displayName = "Badlands Biomes Dimension"
+authors = "mahmudindev"
+description = '''
+Add badlands biomes as separate dimension.
+'''
+logoFile = "assets/badlandsbiomesdimension/icon.png"
+
+[[dependencies.badlandsbiomesdimension]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.badlandsbiomesdimension]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.badlandsbiomesdimension]]
+modId = "modifiedbiomesource"
+mandatory = true
+versionRange = "[0.0.1,)"
+ordering = "NONE"
+side = "SERVER"
+
+[[dependencies.badlandsbiomesdimension]]
+modId = "dimensionfixer"
+mandatory = true
+versionRange = "[0.0.9,)"
+ordering = "NONE"
+side = "SERVER"
+
+[[dependencies.badlandsbiomesdimension]]
+modId = "worldportal"
+mandatory = true
+versionRange = "[0.0.9,)"
+ordering = "NONE"
+side = "SERVER"
