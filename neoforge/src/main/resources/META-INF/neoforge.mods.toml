@@ -16,14 +16,14 @@ logoFile = "assets/badlandsbiomesdimension/icon.png"
 [[dependencies.badlandsbiomesdimension]]
 modId = "neoforge"
 type = "required"
-versionRange = "[21.0,)"
+versionRange = "[21.2,)"
 ordering = "NONE"
 side = "BOTH"
 
 [[dependencies.badlandsbiomesdimension]]
 modId = "minecraft"
 type = "required"
-versionRange = "[1.21,)"
+versionRange = "[1.21.2,)"
 ordering = "NONE"
 side = "BOTH"
 
