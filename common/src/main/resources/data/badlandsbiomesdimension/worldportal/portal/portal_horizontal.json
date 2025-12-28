@@ -1,0 +1,8 @@
+{
+  "frame_top_right": "minecraft:terracotta",
+  "frame_top_left": "minecraft:terracotta",
+  "frame_bottom_right": "minecraft:cobblestone",
+  "frame_bottom_left": "minecraft:cobblestone",
+  "mode": "worldportal:horizontal",
+  "destination": "badlandsbiomesdimension:overworld"
+}
